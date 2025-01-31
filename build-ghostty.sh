@@ -2,13 +2,13 @@
 
 set -e
 
-GHOSTTY_VERSION="1.0.1"
+GHOSTTY_VERSION="1.1.0"
 
 DISTRO_VERSION=$(lsb_release -sr)
 DISTRO=$(lsb_release -sc)
 
 #FULL_VERSION="$GHOSTTY_VERSION-0~${DISTRO}1"
-FULL_VERSION="$GHOSTTY_VERSION-0~ppa4"
+FULL_VERSION="$GHOSTTY_VERSION-0~ppa1"
 
 # Fetch Ghostty Source
 wget -q "https://release.files.ghostty.org/$GHOSTTY_VERSION/ghostty-$GHOSTTY_VERSION.tar.gz"
